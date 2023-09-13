@@ -1,0 +1,23 @@
+app:
+    name: "web_app"
+    mode: "dev"
+    port: 7777
+log:
+    level: "debug"
+    filename: ""
+    max_size: 200
+    max_age: 30
+    max_backups: 7
+mysql:
+    host: "192.168.224.128"
+    port: 13306
+    user: "root"
+    password: "xuanyizhao"
+    db_name: "bluebell"
+    max_open_conns: 200
+    max_idle_conns: 50
+redis:
+    host: "192.168.224.128"
+    port: 16379
+    db: 0
+
